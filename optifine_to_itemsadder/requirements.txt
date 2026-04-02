@@ -1,0 +1,3 @@
+# Requirements for OptiFine CIT to ItemsAdder Converter
+pyyaml>=6.0
+rich>=13.0.0
