@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Video Downloader</string>
+    <string name="download_video">Скачать видео</string>
+    <string name="add_from_gallery">Добавить из галереи</string>
+    <string name="enter_url">Вставьте ссылку на видео</string>
+    <string name="start_download">Начать загрузку</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="rename">Переименовать</string>
+    <string name="add_tag">Добавить тег</string>
+    <string name="tags">Теги</string>
+    <string name="categories">Категории</string>
+    <string name="all_videos">Все видео</string>
+    <string name="set_password">Установить пароль</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="security_question">Контрольный вопрос</string>
+    <string name="security_answer">Ответ на контрольный вопрос</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="login">Войти</string>
+    <string name="logout">Выйти</string>
+    <string name="video_settings">Настройки видео</string>
+    <string name="downloading">Загрузка...</string>
+    <string name="download_complete">Загрузка завершена</string>
+    <string name="download_failed">Ошибка загрузки</string>
+    <string name="no_videos">Нет видео</string>
+    <string name="search">Поиск</string>
+    <string name="filter_by_tag">Фильтр по тегам</string>
+</resources>
