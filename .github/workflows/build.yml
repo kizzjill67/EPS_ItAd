@@ -1,0 +1,27 @@
+name: Сборка APK
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:  # Это даёт кнопку "Запустить сборку"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Установка Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          
+      - name: Сборка Debug APK
+        run: ./gradlew assembleDebug
+        
+      - name: Загрузка APK как артефакт
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-debug
+          path: app/build/outputs/apk/debug/app-debug.apk

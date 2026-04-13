@@ -1,0 +1,68 @@
+```
+# Android
+*.apk
+*.aar
+*.dex
+*.so
+*.jar
+*.class
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
+*.log
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.hprof
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Temporary folder for load/dependency
+.gradle/caches/
+.gradle/wrapper/
+
+# Built application files
+*/build/
+
+# Debug symbols
+*.map
+
+# Generated files
+generated/
+gen/
+
+# Keystore
+*.keystore
+*.jks
+
+# Coverage
+coverage/
+*.ec
+
+# Proguard
+proguard/
+
+# Databases
+*.db
+*.db-journal
+
+# Environment
+.env
+.env.local
+.env.*
+
+# System
+.DS_Store
+Thumbs.db
+```
